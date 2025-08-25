@@ -59,7 +59,7 @@ connectDB();
 
 // CORS configuration with frontend port
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173', // Frontend port
+  origin: process.env.FRONTEND_URL || 'https://newlookcompany.netlify.app/', // Frontend port
   credentials: true
 }));
 
